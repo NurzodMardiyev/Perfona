@@ -1,0 +1,13 @@
+.loading {
+  width: 100%;
+  background: linear-gradient(90deg, #0c69f7, #0737f6);
+}
+.custom-placeholder::placeholder {
+  color: #979797;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "IvyEpic", sans-serif;
+}
+.custom-placeholder {
+  font-style: italic;
+}
