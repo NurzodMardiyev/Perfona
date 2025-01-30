@@ -169,10 +169,27 @@ body {
   background-color: #fff;
 }
 .active {
-  background-color: #1b45e5;
+  background: linear-gradient(-45deg, #003eff, #0094ff);
   color: white;
   font-style: italic;
 }
 .activeBtnMenu {
   background-color: #fff;
+}
+
+/* Swiper Image */
+.swipeImg {
+  height: 100vh;
+  position: absolute; /* Boshlang'ich nuqta */
+  animation: slideUp 2s ease forwards;
+}
+@keyframes slideUp {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-110%, -42%) scale(0.5);
+    opacity: 0;
+  }
 }
